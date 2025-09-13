@@ -1,0 +1,12 @@
+pandas
+transformers
+accelerate
+bitsandbytes
+datasets
+peft
+sentencepiece
+protobuf==3.20.3
+bertviz
+matplotlib
+seaborn
+scikit-learn
