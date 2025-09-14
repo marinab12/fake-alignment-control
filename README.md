@@ -9,7 +9,7 @@ Este trabajo **propone e implementa un mecanismo para controlar el falso alineam
 
 Este proyecto utiliza un archivo `requirements.txt` para manejar las librerías necesarias.
 
-### ✅ Si se dispone de un entorno de Python creado
+### Si se dispone de un entorno de Python creado
 1. Activa tu entorno:
    - **venv / virtualenv (Linux/Mac):**
      ```bash
@@ -27,7 +27,7 @@ Este proyecto utiliza un archivo `requirements.txt` para manejar las librerías 
    ```bash
    pip install -r requirements.txt
 
-### 🆕 Si NO se dispone de un entorno de Python
+### Si NO se dispone de un entorno de Python
 1. Crea el entorno con venv, por ejemplo:
    ```bash
    python -m venv fake-alignment-control_env
