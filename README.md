@@ -1,13 +1,11 @@
 # 🧠 Intervención en las activaciones de modelos grandes de lenguaje (LLM) para controlar el falso alineamiento
 
-## 📌 Introducción
-
 La **Inteligencia Artificial Generativa**, está experimentando un desarrollo acelerado que la posiciona como una herramienta clave en la innovación tecnológica, al tiempo que exige replantear los marcos teóricos y prácticos tradicionales.  Uno de los retos más relevantes en este contexto es el denominado fenómeno **falso alineamiento**, que describe situaciones en las que los **modelos grandes de lenguaje (LLM) aparentan cumplir con normas éticas y de seguridad cuando son supervisados, pero las eluden en ausencia de supervisión**. Si no se aborda adecuadamente, este comportamiento representa un desafío significativo para la **confiabilidad y seguridad** de estas tecnologías.  
 
 Este trabajo **propone e implementa un mecanismo para controlar el falso alineamiento en LLM mediante la manipulación de sus activaciones internas**. Partiendo de un modelo pre-entrenado **LLaMa2-Chat 7B**, se ajusta para inducir dos tipos de comportamiento, uno alineado y otro que finge alineamiento. A partir de los estados ocultos de estos modelos, se construye una base de conocimiento que permite entrenar un modelo de regresión capaz de transformar un comportamiento falsamente alineado en uno alineado. Esta investigación supone un avance hacia sistemas más seguros, confiables y explicables. 
 
 
-## 🚀 Prepara el entorno
+## 🚀 Preparar el entorno
 
 Este proyecto utiliza un archivo `requirements.txt` para manejar las librerías necesarias.
 
