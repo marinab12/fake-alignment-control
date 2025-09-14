@@ -43,12 +43,12 @@ Este proyecto utiliza un archivo `requirements.txt` para manejar las librerías 
      ```
 2. Instala las dependencias:
   ```bash
-   pip install -r requirements.txt
-   ```
+  pip install -r requirements.txt
+  ```
 
 
 ## 📥 Requisito adicional
-Para el correcto funcionamiento de este proyecto, es necesario clonar también el repositorio POSER:
+Para el correcto funcionamiento de este proyecto, es necesario clonar también el repositorio de POSER:
 ```bash
-    git clone https://github.com/sevdeawesome/POSER.git
+  git clone https://github.com/sevdeawesome/POSER.git
 ```
