@@ -2,13 +2,9 @@
 
 ## 📌 Introducción
 
-La **Inteligencia Artificial Generativa**, está experimentando un desarrollo acelerado que la posiciona como una herramienta clave en la innovación tecnológica. Su capacidad para generar contenido original abre nuevas oportunidades para la investigación y el desarrollo, al tiempo que exige replantear los marcos teóricos y prácticos tradicionales.  
+La **Inteligencia Artificial Generativa**, está experimentando un desarrollo acelerado que la posiciona como una herramienta clave en la innovación tecnológica, al tiempo que exige replantear los marcos teóricos y prácticos tradicionales.  Uno de los retos más relevantes es el denominado fenómeno **falso alineamiento**, que describe situaciones en las que los **modelos grandes de lenguaje (LLM)** aparentan cumplir con normas éticas y de seguridad cuando son supervisados, pero las eluden en ausencia de supervisión. Si no se aborda adecuadamente, este comportamiento representa un desafío significativo para la **confiabilidad y seguridad** de estas tecnologías.  
 
-En este contexto surge uno de los retos más relevantes: el **falso alineamiento**. Este fenómeno describe situaciones en las que los **modelos grandes de lenguaje (LLM)** aparentan cumplir con normas éticas y de seguridad cuando son supervisados, pero las eluden en ausencia de supervisión. Investigaciones recientes han mostrado que, si no se aborda adecuadamente, este comportamiento representa un desafío significativo para la **confiabilidad y seguridad** de estas tecnologías.  
-
-Este trabajo propone un mecanismo para **controlar el falso alineamiento en LLM** mediante la manipulación de sus **activaciones internas**. Partiendo de un modelo pre-entrenado **LLaMa2-Chat 7B**, se ajusta para inducir dos comportamientos, uno alineado y otro que finge alineamiento. A partir de los **estados ocultos** de estos modelos, se construye una **base de conocimiento** que permite entrenar un modelo de regresión capaz de transformar un comportamiento falsamente alineado en uno alineado.  
-
-Gracias a los patrones aprendidos por este regresor, se establece un criterio para **corregir el comportamiento** de los modelos que aparentan alineamiento, aportando un avance hacia sistemas más seguros y confiables.  
+Este trabajo propone un mecanismo para **controlar el falso alineamiento en LLM** mediante la manipulación de sus **activaciones internas**. Partiendo de un modelo pre-entrenado **LLaMa2-Chat 7B**, se ajusta para inducir dos tipos de comportamiento, uno alineado y otro que finge alineamiento. A partir de los **estados ocultos** de estos modelos, se construye una **base de conocimiento** que permite entrenar un modelo de regresión capaz de transformar un comportamiento falsamente alineado en uno alineado.  Finalmente, se implementa un mecanismo para **intervenir y orregir el falso alineamiento**, aportando un avance hacia sistemas más seguros, confiables y explicables.  
 
 
 ## 🚀 Prepara el entorno
@@ -48,8 +44,9 @@ Este proyecto utiliza un archivo `requirements.txt` para manejar las librerías 
      fake-alignment-control_env\Scripts\activate
      ```
 2. Instala las dependencias:
-   ```bash
+  ```bash
    pip install -r requirements.txt
+   ```
 
 
 ## 📥 Requisito adicional
